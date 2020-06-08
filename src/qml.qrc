@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Gui/Views/components/Curve.qml</file>
+        <file>Gui/Views/components/CurveCoordinater.qml</file>
+        <file>Gui/Views/components/CurveListModel.qml</file>
+        <file>Gui/Views/components/Button.qml</file>
+        <file>Gui/Views/Demo1.qml</file>
+        <file>Gui/Views/Demo2.qml</file>
+        <file>Gui/Views/Demo3.qml</file>
+        <file>Gui/Views/components/CurveConfigFlag.qml</file>
+        <file>Gui/Views/components/CurveConfigPopup.qml</file>
+    </qresource>
+</RCC>
