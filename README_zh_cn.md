@@ -14,6 +14,20 @@ Qt Quick实现的简单医疗波形图
 * 提供统一的波形管理类来管理所有的波形组件
 * 提供统一的波形重绘触发器来触发所有波形组件的重绘
 
+## API
+
+### 接收数据
+```cpp
+// slot in CurveManager
+CurveManager::onReceiveNewData(CurveData data,int type)
+```
+
+### 更新图表
+```cpp
+// slot in CurveManager
+CurveManager::onTriggerCurveUpdate()
+```
+
 ## 注意
 * 在Windows只支持MinGW 64-bit 编译
 

@@ -1,3 +1,10 @@
+/**
+* \file curvemanager.h
+*
+*  CurveManager is a QObject class and its responsibilities include
+*     - manager all instance of CurvePlot which created in QML
+*     - keep and hold the synchronizing info between mutiple curve
+*/
 #ifndef CURVEMANAGER_H
 #define CURVEMANAGER_H
 

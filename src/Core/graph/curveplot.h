@@ -1,3 +1,11 @@
+/**
+* \file curveplot.h
+*
+*  CurvePlot is a QQuickPaintedItem class and its responsibilities include
+*     - define and hold properties of curve
+*     - draw chart with received data during each repaint time
+*
+*/
 #ifndef CURVEPLOT_H
 #define CURVEPLOT_H
 

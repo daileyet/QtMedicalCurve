@@ -1,3 +1,9 @@
+/**
+* \file timehelper.h
+*
+* TimeHelper is help to deal with the operation of timespec
+*
+*/
 #ifndef TIMEHELPER_H
 #define TIMEHELPER_H
 

@@ -1,3 +1,9 @@
+/**
+* \file curvedatacache.h
+*
+*  CurveDataCache is used to cache the data received only during render time
+*
+*/
 #ifndef CURVEDATACACHE_H
 #define CURVEDATACACHE_H
 

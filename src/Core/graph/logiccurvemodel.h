@@ -1,3 +1,9 @@
+/**
+* \file logiccurvemodel.h
+*
+*  LogicCurveModel is used to cache the enough history data and used to redraw entire chart when auto-scale
+*
+*/
 #ifndef LOGICCURVE_H
 #define LOGICCURVE_H
 
@@ -30,7 +36,7 @@ class LogicCurveModel
        * The left point list is latest logic points in curve, the right point list is oldest logic points.
        * The stored logic point include:
        * x - final x position in curve
-       * y - original y value from CAN bus without tranformation
+       * y - original y value received without tranformation
        */
       list_pair getPoints(const double lastRenderX, const double deleteBarRightX);
       /**

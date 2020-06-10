@@ -1,3 +1,9 @@
+/**
+* \file curvetrigger.h
+*
+* CurveTrigger is a timer and trigger repaint signal at a fix rate
+*
+*/
 #ifndef CURVETRIGGER_H
 #define CURVETRIGGER_H
 

@@ -18,7 +18,6 @@ SOURCES += \
     Core/graph/curvedatacache.cpp \
     Core/graph/curvemanager.cpp \
     Core/graph/curveplot.cpp \
-    Core/graph/curvetypes.cpp \
     Core/graph/logiccurvemodel.cpp \
     Core/util/timehelper.cpp \
     main.cpp

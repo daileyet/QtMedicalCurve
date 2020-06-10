@@ -1,3 +1,9 @@
+/**
+* \file curvesimulator.h
+*
+*  CurveSimulator is a simulate class for provider demo data
+*
+*/
 #ifndef DATASIMULATOR_H
 #define DATASIMULATOR_H
 

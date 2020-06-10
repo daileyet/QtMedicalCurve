@@ -14,6 +14,21 @@ This sample show how to draw medical curve by QPaint and repaint in QML.
 * provide curve manager to manager all instance of curve
 * provide curve trigger to trigger repaint event in global
 
+## API
+
+### Receive data
+```cpp
+// slot in CurveManager
+CurveManager::onReceiveNewData(CurveData data,int type)
+```
+
+### Trigger update
+```cpp
+// slot in CurveManager
+CurveManager::onTriggerCurveUpdate()
+```
+
+
 ## Notes
 * only support MinGW 64-bit building on Windows
 
